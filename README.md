@@ -8,6 +8,10 @@ Make sure you have a GROQ_API_KEY and add it in your .env at the project root (I
 GROQ_API_KEY=<your_key>
 
 # To Bootrap the APP:
+## Create Virtual Environmet
+python -m venv .venv (.venv can be any name of your choice)</br>
+## Activate the env
+source .venv/bin/activate </br>
 pip install -r requirements.txt </br>
 cd /pathto/your/project </br>
 streamlit run app.py </br>
