@@ -1,7 +1,7 @@
-This project contains code for a API payload explainer
+This project contains code for a API payload explainer</br>
 
-Model used: Llama using Groq API
-UI: streamlit
+Model used: Llama using Groq API</br>
+UI: streamlit</br>
 
 # Pre-requisites:
 Make sure you have a GROQ_API_KEY and add it in your .env at the project root (It is free)
