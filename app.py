@@ -34,7 +34,7 @@ def get_llm_response(query):
         model="llama-3.3-70b-versatile",
         messages=[
             {"role":"system", "content": "You are a heplful assisstant to explain the API responses"},
-            {"role":"user", "content": "Explain individual fields and also provide a final summary on which are important ones useful for development with some usecases"},
+            {"role":"user", "content": "Explain individual fields,detects schema anomalies and suggest fixes and also provide a final summary on which are important ones useful for development with some usecases"},
             {"role": "user", "content": query}
         ]
     )
